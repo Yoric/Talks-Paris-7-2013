@@ -652,3 +652,19 @@ ul.inline li:last-child::after {
   50%  { transform: rotate(3deg) translate(-50%, -50%); }
   100% { transform: rotate(-3deg) translate(-50%, -50%); }
 }
+
+.zoomonhover {
+    -moz-transition-property: height;
+    -moz-transition-duration: 1s;
+    transition-property: height;
+    transition-duration: 1s;
+    height:60%;
+}
+
+.zoomonhover:hover {
+    -moz-transition-property: height;
+    -moz-transition-duration: 1s;
+    transition-property: height;
+    transition-duration: 1s;
+    height:200%;
+}
